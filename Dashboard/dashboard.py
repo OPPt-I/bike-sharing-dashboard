@@ -204,10 +204,10 @@ ax[1].grid(axis="y", linestyle="--", alpha=0.7)
 sns.despine()
 st.pyplot(fig)
 
-with st.expander("Insight dan Rekomendasi Perawatan Armada"):
+with st.expander("Insight dan Rekomendasi Perawatan Armada Berdasarkan Data Tahun 2011 hingga 2012"):
     st.markdown(
         """
-        - **Waktu Perawatan Optimal:** Penyewaan harian turun paling rendah pada musim semi (*Spring*) dan saar kondisi cuaca buruk (hujan ringan / bersalju).
+        - **Waktu Perawatan Optimal:** Sepanjang periode tahun **2011 hingga 2012**, penyewaan harian turun paling rendah pada musim semi (*Spring*) dan saar kondisi cuaca buruk (hujan ringan / bersalju).
         - **Rekomendasi Operasional:** Jadwalkan pemeliharaan besar, pengecekan rem, dan penggantian suku cadang armada pada periode musim semi agar tidak mengganggu ketersediaan sepeda pada saat musim puncak penyewaan.
         """
     )
@@ -269,11 +269,11 @@ ax[1].grid(axis="y", linestyle="--", alpha=0.7)
 sns.despine()
 st.pyplot(fig)
 
-with st.expander("Insight dan Strategi Rebalancing Stok Sepeda"):
+with st.expander("Insight dan Strategi Rebalancing Stok Sepeda Berdasarkan Data Tahun 2011 hingga 2012"):
     st.markdown(
         """
-        - **Pola Komuter (Hari Kerja):** Terjadi dua lonjakan tajam pada **pukul 08.00** (jam berangkat kerja/sekolah) dan **pukul 17.00 - 18.00** (jam pulang) yang didominasi olah pegguna *registered*.
-        - **Pola Rekreasi (Hari Libur):** Kurva meladai dan memuncak di siang hari sekitar **pukul 10.00 - 16.00** dengan peningkatan signifikan dari pengguna *casual*. 
+        - **Pola Komuter (Hari Kerja tahun 2011 hingga 2012):** Terjadi dua lonjakan tajam pada **pukul 08.00** (jam berangkat kerja/sekolah) dan **pukul 17.00 - 18.00** (jam pulang) yang didominasi olah pegguna *registered*.
+        - **Pola Rekreasi (Hari Libur tahun 2011 hingga 2012):** Kurva meladai dan memuncak di siang hari sekitar **pukul 10.00 - 16.00** dengan peningkatan signifikan dari pengguna *casual*. 
         - **Rekomendasi Operasional:** Lakukan distribusi ulang sepeda (*rebalancing*) pada jam-jam sibuk di hari kerja untuk memenuhi permintaan pengguna *registered*, dan fokus pada penyediaan sepeda di lokasi-lokasi rekreasi pada siang hari di hari libur untuk memenuhi permintaan pengguna *casual*.
         """
     )
